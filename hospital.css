@@ -1,0 +1,54 @@
+body{
+	background-color: #fff3cd;
+	font-family: 'Noto Sans TC', sans-serif;
+	margin:0px;
+}
+/*bar*/
+header {
+ top:10px;
+ height: 50px;
+ position: fixed;
+ left:0;
+ right:0;
+ background: #fff000;
+ z-index: 200;
+}
+
+.flex-nav {
+    display: flex;justify-content: center;justify-content: space-evenly
+}
+/*就醫資訊(文字)*/
+.title{
+	font-size:50px;
+	margin-left: 20%;
+	margin-top: 5%
+}
+
+/*照片*/
+.map{
+	text-align: center
+}
+/*北中南東區的文字*/
+.area{
+	font-size: 30px
+}
+#n{
+	position: absolute;
+	left:590px;
+	top:260px;
+}
+#m{
+	position: absolute;
+	left:520px;
+	top:420px;
+}
+#s{
+	position: absolute;
+	left:510px;
+	top:630px;
+}
+#e{
+	position: absolute;
+	left:920px;
+	top:500px;
+}

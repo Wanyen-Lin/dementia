@@ -1,0 +1,76 @@
+body{
+	background-color: #fff3cd;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+div.title{
+	font-size: 50px;
+	margin-bottom: 50px;
+
+}
+
+.title > span{
+
+	position: absolute;
+	left:620px;
+	top:250px;
+
+}
+
+.pic{
+	opacity: 40%;
+}
+/*縣市名稱*/
+h1{
+    font-size: 30px;
+	border:1px solid black;
+	width:110px;
+	text-align: center;
+	font-weight: 100;
+	padding: 10px
+}
+
+div.hos{
+	height: 500px;
+}
+
+#one{
+	position: absolute;
+	left:20%;
+	top:650px;
+	width:25%;
+	font-size: 18px;
+
+}
+
+#two{
+	position: absolute;
+    left:60%;
+    top:650px;
+	width:25%;
+	font-size: 18px;
+}
+
+#three{
+	position: absolute;
+    left:60%;
+    top:1250px;
+	width:25%;
+	font-size: 18px;
+}
+
+#four{
+	position: absolute;
+    left:20%;
+    top:1250px;
+	width:25%;
+	font-size: 18px;
+}
+
+#five{
+	position: absolute;
+    left:20%;
+    top:1850px;
+	width:25%;
+	font-size: 18px;
+}
