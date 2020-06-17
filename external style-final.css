@@ -10,7 +10,6 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-	
 
 [class*="col-"] {
 	float: left;
@@ -18,19 +17,7 @@
 	    /*border: 5px solid black;*/
     }
 
-header {
- top:10px;
- height: 50px;
- position: fixed;
- left:0;
- right:0;
- background: #fff000;
- z-index: 200;
-}
 
-.flex-nav {
-    display: flex;justify-content: center;justify-content: space-evenly
-}
 
 .row::after {
 	content: "";
@@ -44,13 +31,34 @@ a:hover {
 }
 
 
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 
 .container
 {
 	 position:absolute;
 	 left: 400px;
-
 }
 
 .Dance
@@ -81,18 +89,9 @@ a:hover {
 	
 }
 
-
-
-
-
-
-
-
-
 body{
 	background-color: #fff3cd;
 	font-family: 'Noto Sans TC', sans-serif;
-	margin:0px;
 }
 
 div.title{
